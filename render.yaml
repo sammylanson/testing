@@ -2,4 +2,4 @@ services:
   - name: web
     type: static
     buildCommand: echo "No build step needed"
-    publishDir:
+    publishDir:sammylanson
